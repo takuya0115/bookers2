@@ -11,7 +11,7 @@ class BooksController < ApplicationController
   end
 
   def index
-    @books = books.all
+    @books = books_url
   end
 
   def show
